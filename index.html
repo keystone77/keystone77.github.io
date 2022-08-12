@@ -6,24 +6,47 @@
     <title>Momentum</title>
 </head>
 <body>
-<form id="login-form">
-    <label>
-        <input
-                required
-                maxlength="15"
-                type="text"
-                placeholder="What is your name?"
-        />
-    </label>
-    <input type="submit" value="Log in"/>
-</form>
-<span></span><span></span>
-<div class="clockstyle" id="clock">
-    <h2>00:00:00</h2>
-</div>
-<h1 id="greeting" class="hidden"></h1>
 
-<div id="weather">
+<div class="divPosition" id="clock">
+    <div>
+        <h2>00:00:00</h2>
+    </div>
+</div>
+
+<div class="divPosition2">
+    <h1 class="divPosition2" id="greeting" class="hidden"></h1>
+    <form id="login-form">
+        <label>
+            <input class="input1"
+                    required
+                    maxlength="15"
+                    type="text"
+                    placeholder="What is your name?"
+            />
+        </label>
+        <input class="input2" type="submit" value="Log in"/>
+    </form>
+</div>
+
+<div class="divPosition4">
+    <div>
+        TODOS
+    </div>
+    <div>
+        <form id="todo-form">
+            <input class="input1" type="text" placeholder="Write a To Do and Press Enter" required />
+        </form>
+        <ul id="todo-list"></ul>
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+</div>
+
+<div id="weather" class="divPosition3">
     <span></span>
     <span></span>
 </div>
@@ -32,7 +55,7 @@
 <script src="js/clock.js"></script>
 <script src="js/background.js"></script>
 <script src="js/weather.js"></script>
-
+<script src="js/todo.js"></script>
 
 </body>
 </html>

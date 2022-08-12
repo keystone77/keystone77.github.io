@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    margin:0
 }
 
 h1 {
@@ -18,8 +18,69 @@ h1 {
     display: none;
 }
 
-.clockstyle {
+.divPosition {
     display: flex;
-    align-items: center:
-    height: 100px;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+
+    font-size: 150px;
+    font-weight: bold;
+    letter-spacing: 0.8rem;
+    color: olive;
+}
+
+
+.divPosition2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1vh;
+
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.8rem;
+    color: olive;
+}
+
+
+.divPosition3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: deeppink;
+}
+
+
+.divPosition4 {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    min-height: 10vh;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: deeppink;
+}
+.input1 {
+    width: 300px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom : 3px solid black;
+    background: transparent;
+}
+.input2 {
+    width: 100px;
+    height: 55px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom : 3px solid black;
+    background: tomato;
 }
