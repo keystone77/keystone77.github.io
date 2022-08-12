@@ -17,3 +17,9 @@ h1 {
 .hidden {
     display: none;
 }
+
+.clockstyle {
+    display: flex;
+    align-items: center:
+    height: 100px;
+}

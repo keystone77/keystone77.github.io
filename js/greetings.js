@@ -1,3 +1,4 @@
+
 const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const greeting = document.querySelector("#greeting");
@@ -16,10 +17,9 @@ function onLoginSubmit(event) {
 function handleLinkClick(event) {
     event.preventDefault();
     console.log(event);
-    if () {
-    }
+
 }
 
 //loginButton.addEventListener("click", handleLoginBtnClick);
 loginForm.addEventListener("submit", onLoginSubmit);
-link.addEventListener("click", handleLinkClick);
+//link.addEventListener("click", handleLinkClick);
